@@ -1,0 +1,9 @@
+tensorflow
+numpy
+pandas
+matplotlib
+seaborn
+sys
+os
+mtcnn
+cv2
