@@ -14,4 +14,4 @@ The idea of the project is to identify the faces in the image. Face recognition 
 9.	Requirment.txt – modules required to run the project
 10.	Readme.md – readme file about the project. 
 
-**bold****italic** face_classification.h5 will be created after running create_model.py. unable to uploade due to file size restriction
+***face_classification.h5 will be created after running create_model.py. unable to uploade due to file size restriction***
