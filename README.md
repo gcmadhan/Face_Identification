@@ -1,4 +1,4 @@
-#Face Identification using Tensorflow Conv2d 
+# Face Identification using Tensorflow Conv2d 
 	The idea of the project is to identify the faces in the image. Face recognition is the now being used daily applications like mobile unlock, attendance system, cctv, crowd monitoring etc. In this project, I have used MTCNN to extract the faces from both datasets, test images. Tesorflow Convolutional layers is used to extract the features from the image, Dense layer is used to classify the image. 
 
 ## Features
