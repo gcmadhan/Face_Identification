@@ -1,5 +1,5 @@
 # Face Identification using Tensorflow Conv2d 
-The idea of the project is to identify the faces in the image. Face recognition is the now being used daily applications like mobile unlock, attendance system, cctv, crowd monitoring etc. In this project, I have used MTCNN to extract the faces from both datasets, test images. Tesorflow Convolutional layers is used to extract the features from the image, Dense layer is used to classify the image. 
+The idea of the project is to identify the faces in the image. Face recognition is the now being used in daily applications like mobile unlock, attendance system, cctv, crowd monitoring etc. In this project, I have used MTCNN to extract the faces from both datasets, test images. Tesorflow Convolutional layers is used to extract the features from the image, Dense layer is used to classify the image. 
 
 ## Features
 ## Folder Structure
@@ -14,4 +14,4 @@ The idea of the project is to identify the faces in the image. Face recognition 
 9.	Requirment.txt – modules required to run the project
 10.	Readme.md – readme file about the project. 
 
-***face_classification.h5 will be created after running create_model.py. unable to uploade due to file size restriction***
+***face_classification.h5 will be created after running create_model.py. unable to upload due to file size restriction***
