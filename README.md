@@ -59,14 +59,16 @@ The architecture of a ConvNet is analogous to that of the connectivity pattern o
 3. Confusion Matrix, Classification report, Loss & Accuracy report will be generated from model creation. 
 
 ## Reports
-  <img width="250" height="250" alt="Losses" src="https://github.com/gcmadhan/Face_Identification/blob/master/losses.jpg">
-  <img width="250" height="250" alt="accuracy" src="https://github.com/gcmadhan/Face_Identification/blob/master/accuracy.jpg">
-  <img width="250" height="250" alt="Confusion Matrix" src="https://github.com/gcmadhan/Face_Identification/blob/master/conf_matrix.jpg">
+  <img width="200" height="200" alt="Losses" src="https://github.com/gcmadhan/Face_Identification/blob/master/losses.jpg">  <img width="200" height="200" alt="accuracy" src="https://github.com/gcmadhan/Face_Identification/blob/master/accuracy.jpg">   <img width="200" height="200" alt="Confusion Matrix" src="https://github.com/gcmadhan/Face_Identification/blob/master/conf_matrix.jpg">
 
 
+## Input
+ <img height="250" alt="test images" src="https://github.com/gcmadhan/Face_Identification/blob/master/Readme/Capture.PNG">
+ <img height="250" alt="accuracy" src="https://github.com/gcmadhan/Face_Identification/blob/master/Readme/output.PNG">
 
-## Limitations/Improvement required
-1. Training dataset - Images should be good quality, Images should have single image to categorize it accordingly. 
+
+## Limitations/Future changes
+1. Training dataset - Images should be in good quality, Images should have single image to categorize it accordingly. 
 2. Model has 87% confidence level on the given dataset, any new addition in the dataset might need to create the model again. 
 3. Negative scenarios like testing with radom images is not considered. as the categorical will work only based on give datasets. 
 
