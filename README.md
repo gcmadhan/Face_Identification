@@ -59,8 +59,9 @@ The architecture of a ConvNet is analogous to that of the connectivity pattern o
 3. Confusion Matrix, Classification report, Loss & Accuracy report will be generated from model creation. 
 
 ## Reports
-## Loss vs Validation Loss
-  <img width="250" height="250" alt="portfolio_view" src="https://github.com/gcmadhan/Face_Identification/blob/master/losses.jpg">
+  <img width="250" height="250" alt="Losses" src="https://github.com/gcmadhan/Face_Identification/blob/master/losses.jpg">
+  <img width="250" height="250" alt="accuracy" src="https://github.com/gcmadhan/Face_Identification/blob/master/accuracy.jpg">
+  <img width="250" height="250" alt="Confusion Matrix" src="https://github.com/gcmadhan/Face_Identification/blob/master/conf_matrix.jpg">
 
 
 
