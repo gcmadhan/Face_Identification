@@ -60,7 +60,7 @@ The architecture of a ConvNet is analogous to that of the connectivity pattern o
 
 ## Reports
 ## Loss vs Validation Loss
-  ![Loss vs Validatioin Loss](https://github.com/gcmadhan/Face_Identification/blob/master/losses.jpg){:height="25%" width="25%"}
+  ![Loss vs Validatioin Loss]<img width="100" alt="portfolio_view" src="https://github.com/gcmadhan/Face_Identification/blob/master/losses.jpg">
 
 
 
