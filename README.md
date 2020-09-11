@@ -60,7 +60,7 @@ The architecture of a ConvNet is analogous to that of the connectivity pattern o
 
 # Reports
 # Loss vs Validation Loss
-  ![Loss vs Validatioin Loss](Losses.jpg)
+  ![Loss vs Validatioin Loss](https://github.com/gcmadhan/Face_Identification/blob/master/losses.jpg)
 
 ## Limitations/Improvement required
 1. Training dataset - Images should be good quality, Images should have single image to categorize it accordingly. 
