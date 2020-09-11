@@ -6,6 +6,7 @@ import sys, os
 from mtcnn.mtcnn import MTCNN
 import cv2
 
+
 #Global variables and paths
 path=sys.path[0]+"/"
 
@@ -56,6 +57,54 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, shuffle=True, test_siz
 
 #train the model with validation data and call back function 
 model.fit(X_train, y_train,epochs=30, verbose=2, validation_data=(X_test, y_test), callbacks=[callback])
+
+losses = pd.DataFrame(model.history.history)
+print(losses)
+
+## Report
+
+from sklearn.metrics import classification_report, confusion_matrix
+
+pre = model.predict(X_test)
+pre = np.argmax(pre, axis=-1)
+
+#print(classification_report(y_test, pre))
+title = "Classification Report \n\n"
+
+report = str(classification_report(y_test, pre))
+file1 = open("report.txt", "w+")
+file1.write(title)
+file1.write(report)
+title = "\n\n\n Confusion Matrix \n\n"
+file1.write(title)
+conf_matrix = confusion_matrix(y_test, pre)
+file1.write(str(conf_matrix))
+file1.close
+
+plt.title("Confustion Matrix")
+sns.heatmap(conf_matrix, annot=True)
+plt.ioff()
+plt.savefig("conf_matrix.jpg")
+plt.close()
+
+
+plt.title("Loss vs Valdiaton Loss")
+plt.ylabel("loss")
+plt.xlabel("Epochs")
+plt.ylim(top=5)
+plt.plot(losses[['loss','val_loss']])
+plt.ioff()
+plt.savefig("losses.jpg")
+plt.close()
+plt.title("Accuracy vs Validation Accuracy")
+plt.ylabel("accuracy")
+plt.xlabel("Epochs")
+plt.ylim(bottom=-1)
+plt.plot(losses[['accuracy','val_accuracy']])
+plt.ioff()
+plt.savefig("accuracy.jpg")
+plt.close()
+
 print("model compiled and trained")
 
 model.save(path+'face_classification.h5')
