@@ -58,6 +58,10 @@ The architecture of a ConvNet is analogous to that of the connectivity pattern o
 2. Any number or classification can be included, by running the create_model.py Tensorflow model will be created. 
 3. Confusion Matrix, Classification report, Loss & Accuracy report will be generated from model creation. 
 
+# Reports
+# Loss vs Validation Loss
+  ![Loss vs Validatioin Loss](Losses.jpg)
+
 ## Limitations/Improvement required
 1. Training dataset - Images should be good quality, Images should have single image to categorize it accordingly. 
 2. Model has 87% confidence level on the given dataset, any new addition in the dataset might need to create the model again. 
