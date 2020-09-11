@@ -64,6 +64,7 @@ The architecture of a ConvNet is analogous to that of the connectivity pattern o
 
 ## Input
  <img height="250" alt="test images" src="https://github.com/gcmadhan/Face_Identification/blob/master/Readme/Capture.PNG">
+ 
 ## Ouput
  <img height="250" alt="accuracy" src="https://github.com/gcmadhan/Face_Identification/blob/master/Readme/output.png">
 
