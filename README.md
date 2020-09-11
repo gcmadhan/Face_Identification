@@ -58,9 +58,11 @@ The architecture of a ConvNet is analogous to that of the connectivity pattern o
 2. Any number or classification can be included, by running the create_model.py Tensorflow model will be created. 
 3. Confusion Matrix, Classification report, Loss & Accuracy report will be generated from model creation. 
 
-# Reports
-# Loss vs Validation Loss
-  ![Loss vs Validatioin Loss](https://github.com/gcmadhan/Face_Identification/blob/master/losses.jpg)
+## Reports
+## Loss vs Validation Loss
+  ![Loss vs Validatioin Loss](https://github.com/gcmadhan/Face_Identification/blob/master/losses.jpg =100x100)
+
+
 
 ## Limitations/Improvement required
 1. Training dataset - Images should be good quality, Images should have single image to categorize it accordingly. 
